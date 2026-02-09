@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our Cosmic Valentine</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="stars" aria-hidden="true"></div>
+
+    <main class="scene scene-landing active" id="landing">
+      <div class="glow-orb" aria-hidden="true"></div>
+      <h1>Do you want to enter the magic world, Sumedha?</h1>
+      <button id="enterBtn" class="primary-btn" type="button">Yes ❤️</button>
+    </main>
+
+    <section class="scene scene-journey" id="journey" aria-label="Cosmic love journey">
+      <div class="journey-sky">
+        <div class="warp warp-one"></div>
+        <div class="warp warp-two"></div>
+        <div class="nebula nebula-one"></div>
+        <div class="nebula nebula-two"></div>
+        <div class="planet planet-one"></div>
+        <div class="planet planet-two"></div>
+        <div class="planet planet-three"></div>
+        <div class="cosmic-glow"></div>
+      </div>
+      <button id="audioToggle" class="audio-btn" type="button" aria-pressed="false">
+        🔇 Unmute music
+      </button>
+      <p class="journey-note">A quiet cosmic path, written in starlight...</p>
+    </section>
+
+    <section class="scene scene-final" id="final" aria-label="Valentine message">
+      <div class="petals" aria-hidden="true"></div>
+      <div class="hearts" aria-hidden="true"></div>
+      <div class="final-content">
+        <h2>Happy Valentine’s Day ❤️</h2>
+        <p>To the one who makes my world magical.</p>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
